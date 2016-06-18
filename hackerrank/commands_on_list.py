@@ -34,3 +34,5 @@ for cmd_line in commands:
     elif command == "reverse":
         '''do reverse'''
         list_of_numbers.reverse()
+    else:
+        print("unknown command " + command)
