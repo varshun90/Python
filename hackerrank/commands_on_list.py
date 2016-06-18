@@ -7,6 +7,9 @@ for i in range(no_of_commands):
 
 for cmd_line in commands:
     split_command = cmd_line.split()
+    if not split_command:
+        print("no command given")
+        continue
     command = split_command[0]
     if command == "insert":
         '''do insert'''
