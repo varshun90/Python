@@ -13,11 +13,7 @@ def main():
         print("")
 
     # print welcome
-    no_of_welcome_dashes = int((M - 7) / 2)
-    print_string(no_of_welcome_dashes, "-")
-    print("WELCOME", end="")
-    print_string(no_of_welcome_dashes, "-")
-    print("")
+    print("WELCOME".center(M, "-"))
 
     # print bottom row
     for i in range(int((N) / 2)+1, N):
