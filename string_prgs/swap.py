@@ -14,3 +14,7 @@ def main():
 main()
     
     
+'''a=5,b=6,temp
+temp = a
+a=b '6'
+b=temp '5'''
